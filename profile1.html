@@ -1,0 +1,33 @@
+
+     <!-- Bootstrap CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <body class="bg-success">  
+    <header>
+        <h1 class="text-center">User Profile</h1>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="border" style="border: 1px solid rgb(196, 174, 174); width: 1100px;height: 250px;margin-left: 10px;">
+               <img id="userImage" src="https://unsplash.com/photos/bodgc6H44FA" alt="User Image">
+            </div>
+           
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password "class="form-control" placeholder="Password">
+            </div>
+            <div>
+                <label for="oldPassword">Old Password:</label>
+                <input type="password"class="form-control" id="oldPassword" placeholder="Old Password">
+            </div>
+            <div>
+                <label for="newPassword">New Password:</label>
+                <input type="password" id="newPassword" class="form-control"placeholder="New Password">
+            </div>
+            <br/>
+            <button onclick="updatePassword()"class="form-control btn btn-primary">Update Password</button>
+        </div>
+    </main>
+</body>
+
+</html>
